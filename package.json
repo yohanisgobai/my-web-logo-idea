@@ -1,22 +1,21 @@
 {
-  "name": "my-web-font-logo",
-  "version": "0.0.1",
-  "description": "My Logo With Various Fonts and CSS",
-  "main": "colorList.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yohanisgobai/my-web-logo-idea.git"
-  },
-  "keywords": [
-    "CSS-Logo"
-  ],
-  "author": "Yohanis Gobai",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yohanisgobai/my-web-logo-idea/issues"
-  },
-  "homepage": "https://github.com/yohanisgobai/my-web-logo-idea#readme"
+	"name": "my-web-font-logo",
+	"version": "0.0.1",
+	"description": "My Logo With Various Fonts and CSS",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/yohanisgobai/my-web-logo-idea.git"
+	},
+	"keywords": [
+		"CSS-Logo"
+	],
+	"author": "Yohanis Gobai",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/yohanisgobai/my-web-logo-idea/issues"
+	},
+	"homepage": "https://github.com/yohanisgobai/my-web-logo-idea#readme"
 }
