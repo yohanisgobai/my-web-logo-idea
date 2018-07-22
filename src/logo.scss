@@ -1,0 +1,64 @@
+/* Reset */
+@import "./reset.scss";
+
+/* Fonts */
+
+$font-marienda: "Merienda", cursive;
+$font-chelaOne: "Chela One", cursive;
+$font-eczar: "Eczar", serif;
+$font-pacifico: "Pacifico", cursive;
+$font-orbitron: "Orbitron", sans-serif;
+
+/* Primary Color before Hover */
+$primary-color: #ededed;
+
+/*Colors After Hover */
+
+$hover-red: #f95959;
+$hover-yellow: #facf5a;
+$hover-blue: #455d7a;
+
+/*CSS for each Fonts */
+a {
+	text-decoration: none;
+	color: $primary-color;
+}
+
+@mixin logo {
+	font-size: 5rem;
+	height: 20vh;
+	& .red:hover {
+		color: $hover-red;
+	}
+	& .yellow:hover {
+		color: $hover-yellow;
+	}
+	& .blue:hover {
+		color: $hover-blue;
+	}
+}
+.marienda {
+	@include logo();
+	font-family: $font-marienda;
+	font-size: 3.5rem;
+}
+
+.chelaOne {
+	@include logo();
+	font-family: $font-chelaOne;
+}
+.eczar {
+	@include logo();
+	font-family: $font-eczar;
+	font-size: 4rem;
+}
+.pacifico {
+	@include logo();
+	font-family: $font-pacifico;
+	font-size: 4rem;
+}
+.orbitron {
+	@include logo();
+	font-family: $font-orbitron;
+	font-size: 3.25rem;
+}

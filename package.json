@@ -3,7 +3,8 @@
 	"version": "0.0.1",
 	"description": "My Logo With Various Fonts and CSS",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "gulp"
 	},
 	"repository": {
 		"type": "git",
@@ -17,5 +18,11 @@
 	"bugs": {
 		"url": "https://github.com/yohanisgobai/my-web-logo-idea/issues"
 	},
-	"homepage": "https://github.com/yohanisgobai/my-web-logo-idea#readme"
+	"homepage": "https://github.com/yohanisgobai/my-web-logo-idea#readme",
+	"devDependencies": {
+		"gulp": "^3.9.1",
+		"gulp-clean-css": "3.9.4",
+		"gulp-sass": "4.0.1"
+	},
+	"dependencies": {}
 }

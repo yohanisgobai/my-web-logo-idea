@@ -1,0 +1,72 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/* Fonts */
+/* Primary Color before Hover */
+/*Colors After Hover */
+/*CSS for each Fonts */
+a {
+  text-decoration: none;
+  color: #ededed; }
+
+.marienda {
+  font-size: 5rem;
+  height: 20vh;
+  font-family: "Merienda", cursive;
+  font-size: 3.5rem; }
+  .marienda .red:hover {
+    color: #f95959; }
+  .marienda .yellow:hover {
+    color: #facf5a; }
+  .marienda .blue:hover {
+    color: #455d7a; }
+
+.chelaOne {
+  font-size: 5rem;
+  height: 20vh;
+  font-family: "Chela One", cursive; }
+  .chelaOne .red:hover {
+    color: #f95959; }
+  .chelaOne .yellow:hover {
+    color: #facf5a; }
+  .chelaOne .blue:hover {
+    color: #455d7a; }
+
+.eczar {
+  font-size: 5rem;
+  height: 20vh;
+  font-family: "Eczar", serif;
+  font-size: 4rem; }
+  .eczar .red:hover {
+    color: #f95959; }
+  .eczar .yellow:hover {
+    color: #facf5a; }
+  .eczar .blue:hover {
+    color: #455d7a; }
+
+.pacifico {
+  font-size: 5rem;
+  height: 20vh;
+  font-family: "Pacifico", cursive;
+  font-size: 4rem; }
+  .pacifico .red:hover {
+    color: #f95959; }
+  .pacifico .yellow:hover {
+    color: #facf5a; }
+  .pacifico .blue:hover {
+    color: #455d7a; }
+
+.orbitron {
+  font-size: 5rem;
+  height: 20vh;
+  font-family: "Orbitron", sans-serif;
+  font-size: 3.25rem; }
+  .orbitron .red:hover {
+    color: #f95959; }
+  .orbitron .yellow:hover {
+    color: #facf5a; }
+  .orbitron .blue:hover {
+    color: #455d7a; }
