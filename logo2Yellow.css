@@ -4,13 +4,13 @@
 	box-sizing: border-box;
 }
 
-.logo2 {
-	font-family: "Chela One", cursive;
-	font-size: 5rem;
+.logo2Yellow {
+	font-family: "Merienda", cursive;
+	font-size: 4rem;
 	color: #ededed;
 }
 
-.logo2:hover {
+.logo2Yellow:hover {
 	color: #facf5a;
 }
 a {

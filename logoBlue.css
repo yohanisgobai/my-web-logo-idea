@@ -4,13 +4,13 @@
 	box-sizing: border-box;
 }
 
-.logo3 {
+.logoBlue {
 	font-family: "Chela One", cursive;
 	font-size: 5rem;
 	color: #ededed;
 }
 
-.logo3:hover {
+.logoBlue:hover {
 	color: #455d7a;
 }
 a {
