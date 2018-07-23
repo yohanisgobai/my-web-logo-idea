@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Footer</title>
+    <link href="https://fonts.googleapis.com/css?family=Chela+One|Eczar|Merienda|Orbitron|Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="build/footer/footer.css">
+  </head>
+  <body>
+    <div class="chelaOne">
+      <footer>
+        &COPY;<span class="year">{{year}}</span> <a href="#" class="red"><b>YogoLabs</b></a>
+      </footer>
+    </div>
+    <div class="eczar">
+      <footer>
+        &COPY;<span class="year">{{year}</span> <a href="#" class="blue"><b>YogoLabs</b></a>
+      </footer>
+      <!-- <script type="text/javascript">document.addEventListener('DOMContentLoaded',function(){var em = document.querySelector(".year");em.innerHTML= new Date().getFullYear();})</script> -->
+    </div>
+    <div class="pacifico">
+      <footer>
+        &COPY;<span class="year">{{year}</span> <a href="#" class="yellow"><b>YogoLabs</b></a>
+      </footer>
+      <!-- <script type="text/javascript">document.addEventListener('DOMContentLoaded',function(){var em = document.querySelector(".year");em.innerHTML= new Date().getFullYear();})</script> -->
+    </div>
+    <div class="marienda">
+      <footer>
+        &COPY;<span class="year">{{year}</span> <a href="#" class="green"><b>YogoLabs</b></a>
+      </footer>
+      <!-- <script type="text/javascript">document.addEventListener('DOMContentLoaded',function(){var em = document.querySelector(".year");em.innerHTML= new Date().getFullYear();})</script> -->
+    </div>
+    <div class="orbitron">
+      <footer>
+        &COPY;<span class="year">{{year}</span> <a href="#" class="pink"><b>YogoLabs</b></a>
+      </footer>
+      <!-- <script type="text/javascript">document.addEventListener('DOMContentLoaded',function(){var em = document.querySelector(".year");em.innerHTML= new Date().getFullYear();})</script> -->
+    </div>
+    <script type="text/javascript">document.addEventListener('DOMContentLoaded',function(){
+      var em = document.querySelectorAll(".year");
+      em.forEach(function(value,index,array){
+        array[index].textContent= new Date().getFullYear();
+      })
+    })
+      //em.innerHTML= new Date().getFullYear();})
+      </script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+@import "../reset.scss";
+
+/*Content*/
+
+@mixin footer {
+	font-size: 1rem;
+	text-align: center;
+	height: 20vh;
+	line-height: 20vh;
+	color: $primary-color;
+}
+
+.chelaOne {
+	@include footer();
+	background-color: $red;
+	& .red {
+		font-family: $font-chelaOne;
+	}
+	& .red:hover {
+		color: black;
+	}
+}
+
+.eczar {
+	@include footer();
+	background-color: $blue;
+	& .blue {
+		font-family: $font-eczar;
+	}
+	& .blue:hover {
+		color: black;
+	}
+}
+.pacifico {
+	@include footer();
+	background-color: $yellow;
+	& .yellow {
+		font-family: $font-pacifico;
+	}
+	& .yellow:hover {
+		color: black;
+	}
+}
+.marienda {
+	@include footer();
+	background-color: $green;
+	& .green {
+		font-family: $font-marienda;
+	}
+	& .green:hover {
+		color: black;
+	}
+}
+.orbitron {
+	@include footer();
+	background-color: $pink;
+	& .pink {
+		font-family: $font-orbitron;
+	}
+	& .pink:hover {
+		color: black;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: $primary-color;
+}

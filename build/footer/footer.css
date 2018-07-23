@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/*primary-color */
+/*Background-Color */
+/* Fonts */
+/*Content*/
+.chelaOne {
+  font-size: 1rem;
+  text-align: center;
+  height: 20vh;
+  line-height: 20vh;
+  color: #ededed;
+  background-color: #f95959; }
+  .chelaOne .red {
+    font-family: "Chela One", cursive; }
+  .chelaOne .red:hover {
+    color: black; }
+
+.eczar {
+  font-size: 1rem;
+  text-align: center;
+  height: 20vh;
+  line-height: 20vh;
+  color: #ededed;
+  background-color: #455d7a; }
+  .eczar .blue {
+    font-family: "Eczar", serif; }
+  .eczar .blue:hover {
+    color: black; }
+
+.pacifico {
+  font-size: 1rem;
+  text-align: center;
+  height: 20vh;
+  line-height: 20vh;
+  color: #ededed;
+  background-color: #facf5a; }
+  .pacifico .yellow {
+    font-family: "Pacifico", cursive; }
+  .pacifico .yellow:hover {
+    color: black; }
+
+.marienda {
+  font-size: 1rem;
+  text-align: center;
+  height: 20vh;
+  line-height: 20vh;
+  color: #ededed;
+  background-color: #53d397; }
+  .marienda .green {
+    font-family: "Merienda", cursive; }
+  .marienda .green:hover {
+    color: black; }
+
+.orbitron {
+  font-size: 1rem;
+  text-align: center;
+  height: 20vh;
+  line-height: 20vh;
+  color: #ededed;
+  background-color: #f62a66; }
+  .orbitron .pink {
+    font-family: "Orbitron", sans-serif; }
+  .orbitron .pink:hover {
+    color: black; }
+
+a {
+  text-decoration: none;
+  color: #ededed; }

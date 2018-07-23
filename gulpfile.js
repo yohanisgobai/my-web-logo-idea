@@ -6,7 +6,13 @@ const cleanCSS = require("gulp-clean-css");
 gulp.task("default", function() {
 	// place code for your default task here
 	gulp
-		.src("src/*.scss")
+		.src("src/logo/*.scss")
 		.pipe(sass())
-		.pipe(gulp.dest("build/"));
+		.pipe(gulp.dest("build/logo"));
+});
+gulp.task("footer", function() {
+	gulp
+		.src("src/footer/*.scss")
+		.pipe(sass())
+		.pipe(gulp.dest("build/footer"));
 });

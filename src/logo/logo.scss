@@ -1,22 +1,5 @@
 /* Reset */
-@import "./reset.scss";
-
-/* Fonts */
-
-$font-marienda: "Merienda", cursive;
-$font-chelaOne: "Chela One", cursive;
-$font-eczar: "Eczar", serif;
-$font-pacifico: "Pacifico", cursive;
-$font-orbitron: "Orbitron", sans-serif;
-
-/* Primary Color before Hover */
-$primary-color: #ededed;
-
-/*Colors After Hover */
-
-$hover-red: #f95959;
-$hover-yellow: #facf5a;
-$hover-blue: #455d7a;
+@import "../reset.scss";
 
 /*CSS for each Fonts */
 a {
@@ -28,13 +11,13 @@ a {
 	font-size: 5rem;
 	height: 20vh;
 	& .red:hover {
-		color: $hover-red;
+		color: $red;
 	}
 	& .yellow:hover {
-		color: $hover-yellow;
+		color: $yellow;
 	}
 	& .blue:hover {
-		color: $hover-blue;
+		color: $blue;
 	}
 }
 .marienda {
