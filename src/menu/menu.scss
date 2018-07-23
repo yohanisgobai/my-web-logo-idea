@@ -1,0 +1,46 @@
+@import "../reset.scss";
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	font-size: 2rem;
+	height: 20vh;
+	text-align: center;
+}
+
+.merienda {
+	font-family: $font-marienda;
+	& .red:hover {
+		color: $red;
+	}
+}
+.chelaOne {
+	font-family: $font-chelaOne;
+	& .blue:hover {
+		color: $blue;
+	}
+}
+.eczar {
+	font-family: $font-eczar;
+	& .yellow:hover {
+		color: $yellow;
+	}
+}
+.pacifico {
+	font-family: $font-pacifico;
+	& .green:hover {
+		color: $green;
+	}
+}
+.orbitron {
+	font-family: $font-orbitron;
+	& .pink:hover {
+		color: $pink;
+	}
+}
+a {
+	text-decoration: none;
+	color: $secondary-color;
+}

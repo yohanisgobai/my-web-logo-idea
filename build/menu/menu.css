@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/*primary-color */
+/*Background-Color */
+/* Fonts */
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  height: 20vh;
+  text-align: center; }
+
+.merienda {
+  font-family: "Merienda", cursive; }
+  .merienda .red:hover {
+    color: #f95959; }
+
+.chelaOne {
+  font-family: "Chela One", cursive; }
+  .chelaOne .blue:hover {
+    color: #455d7a; }
+
+.eczar {
+  font-family: "Eczar", serif; }
+  .eczar .yellow:hover {
+    color: #facf5a; }
+
+.pacifico {
+  font-family: "Pacifico", cursive; }
+  .pacifico .green:hover {
+    color: #53d397; }
+
+.orbitron {
+  font-family: "Orbitron", sans-serif; }
+  .orbitron .pink:hover {
+    color: #f62a66; }
+
+a {
+  text-decoration: none;
+  color: #8ea6b4; }

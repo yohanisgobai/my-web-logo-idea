@@ -16,3 +16,9 @@ gulp.task("footer", function() {
 		.pipe(sass())
 		.pipe(gulp.dest("build/footer"));
 });
+gulp.task("menu", function() {
+	gulp
+		.src("src/menu/*.scss")
+		.pipe(sass())
+		.pipe(gulp.dest("build/menu"));
+});
